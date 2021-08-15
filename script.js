@@ -23,4 +23,7 @@ var x = setInterval(function() {
     titleText.innerHTML = "You've Made It!";
     messageText.innerHTML = "Well done Gorgeous. <br> We really did it.";
   }
+  else{
+    messageText.innerHTML = "*Tick Tock, Tick Tock* <br> Uni is nearly here, I Love you!";
+  }
 }, 1000);

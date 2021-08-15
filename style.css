@@ -12,12 +12,13 @@ body{
   display: flex;
   justify-content: center;
   background-color: #000e24;
+  height: 10vh;
 }
 .main-title p {
-  height: 10vh;
   color: #F8F9FD;
-  font-size: 5rem;
-  padding: 2rem;
+  margin-top: 15%;
+  font-size: 4rem;
+  padding: 1rem;
   text-align: center;
   font-family: sofia, Helvetica, sans-serif;
 }
@@ -31,9 +32,9 @@ body{
   background-color: #000e24;
 }
 .container {
-  width: 540px;
-  height: 620px;
-  padding: 6rem;
+  width: 340px;
+  height: 420px;
+  padding: 4rem;
   border-radius: 20px;
   position: relative;
   overflow: hidden;
@@ -69,7 +70,7 @@ body{
   transition: 0.5s;
   margin-top: 35%;
   text-align: center;
-  font-size: 4rem;
+  font-size: 2rem;
   color: #1b1b1b;
 }
 #title:hover {
@@ -79,7 +80,7 @@ body{
 }
 
 #conf-text {
-  margin-top: 2rem;
+  margin-top: 3rem;
   line-height: 130%;
   text-align: center;
   color: #606060;
