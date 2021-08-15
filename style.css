@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+  background-color: #000e24;
+}
 .main-title {
   display: flex;
   justify-content: center;
@@ -28,9 +31,9 @@
   background-color: #000e24;
 }
 .container {
-  width: 340px;
-  height: 420px;
-  padding: 2rem;
+  width: 540px;
+  height: 620px;
+  padding: 6rem;
   border-radius: 20px;
   position: relative;
   overflow: hidden;
@@ -66,7 +69,7 @@
   transition: 0.5s;
   margin-top: 35%;
   text-align: center;
-  font-size: 3rem;
+  font-size: 4rem;
   color: #1b1b1b;
 }
 #title:hover {
@@ -80,40 +83,4 @@
   line-height: 130%;
   text-align: center;
   color: #606060;
-}
-
-.buttons {
-  width: 100%;
-  height: 2.5rem;
-  margin-top: 2rem;
-  padding: 0.5rem;
-  text-align: center;
-}
-#btn-previous {
-  font-size: 1.2rem;
-  color: #fff;
-  border: none;
-  border-radius: 1.85rem;
-  margin-right: 0.5rem;
-  padding: 0.85rem;
-  background-color: rgb(255, 36, 72);
-  box-shadow: 0 5px 20px rgba(253, 19, 58, 0.25);
-}
-#btn-previous:hover {
-}
-#btn-continue {
-  font-size: 1.2rem;
-  color: #fff;
-  border: none;
-  border-radius: 1.85rem;
-  margin-left: 0.5rem;
-  padding: 0.85rem;
-  transition: 0.5s;
-  background-color: rgb(255, 36, 72);
-  box-shadow: 0 5px 20px rgba(253, 19, 58, 0.25);
-}
-#btn-continue:hover {
-  -webkit-transformation: scale(1.1);
-  -ms-transformation: scale(1.1);
-  transform: scale(1.1);
 }
