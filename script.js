@@ -22,9 +22,9 @@ var x = setInterval(function() {
   if (distance < 0) {
     clearInterval(x);
     titleText.innerHTML = "You've Made It!";
-    messageText.innerHTML = "Well done Gorgeous. <br> We really did it.";
+    messageText.innerHTML = "Well done Gorgeous. <br> You really did it.";
   }
   else{
-    messageText.innerHTML = "*Tick Tock, Tick Tock* <br> Uni is nearly here, I Love you!";
+    messageText.innerHTML = "*Tick Tock, Tick Tock* <br> Uni is nearly here, " + "<b>" +((days / 7).toFixed(2)) + "</b>" + " weeks left!";
   }
 }, 1000);
