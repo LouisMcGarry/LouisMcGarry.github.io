@@ -14,8 +14,9 @@ var x = setInterval(function() {
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  titleText.innerHTML = days + " : " + hours + " : " + minutes;
+  titleText.innerHTML = days + " : " + hours + " : " + minutes + " : " + seconds;
 
   // If the count down is over display finish message
   if (distance < 0) {

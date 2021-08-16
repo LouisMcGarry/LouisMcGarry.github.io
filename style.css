@@ -11,30 +11,27 @@ body{
 .main-title {
   display: flex;
   justify-content: center;
-  background-color: #000e24;
-  height: 10vh;
+  height: 20vh;
 }
 .main-title p {
   color: #F8F9FD;
-  margin-top: 15%;
-  font-size: 4rem;
-  padding: 1rem;
+  font-size: 2rem;
+  padding: 3rem;
   text-align: center;
   font-family: sofia, Helvetica, sans-serif;
 }
 .screen {
-  height: 90vh;
+  height: 40vh;
   width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000e24;
 }
 .container {
-  width: 340px;
-  height: 420px;
-  padding: 4rem;
+  width: 240px;
+  height: 320px;
+  padding: 1rem;
   border-radius: 20px;
   position: relative;
   overflow: hidden;
@@ -70,7 +67,7 @@ body{
   transition: 0.5s;
   margin-top: 35%;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.1rem;
   color: #1b1b1b;
 }
 #title:hover {
