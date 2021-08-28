@@ -10,7 +10,7 @@ var x = setInterval(function() {
   // Find the distance between now and the count down date
   var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes
+  // Time calculations for days, hours, minutes and seconds
   var days = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
@@ -25,6 +25,6 @@ var x = setInterval(function() {
     messageText.innerHTML = "Well done Gorgeous. <br> You really did it.";
   }
   else{
-    messageText.innerHTML = "*Tick Tock, Tick Tock* <br> Uni is nearly here, " + "<b>" +((days / 7).toFixed(2)) + "</b>" + " weeks left!";
+    messageText.innerHTML = "*Tick Tock, Tick Tock* <br> Uni is so close now, " + "<b>" +((days / 7).toFixed(2)) + "</b>" + " weeks left!";
   }
 }, 1000);
