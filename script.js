@@ -1,7 +1,7 @@
 var titleText = document.getElementById('title');
 var messageText = document.getElementById('conf-text');
 
-var countDownDate = new Date("Sept 4, 2022 14:00:00").getTime();
+var countDownDate = new Date("Sept 3, 2023 14:00:00").getTime();
 var x = setInterval(function() {
 
   // Get today's date and time
